@@ -2,7 +2,7 @@ nav{
     background-color: steelblue;
     padding: 10px;
 }
-nav{
+nav a {
    color: white;
    display: block; 
    padding: 20px;
