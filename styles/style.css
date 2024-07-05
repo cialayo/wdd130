@@ -32,9 +32,10 @@ p{
 aside{
     width: 20rem;
     text-align: center;
+    position:relative;
 }
 aside h2{
-    position:relative;
+    position:absolute;
     top: 60px;
     left: 1px;
     color:aliceblue
