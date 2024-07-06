@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --primary-color:#914229;
+    --secondary-color:#f67213;
+    --accent1-color:#ff9505;
+    --accent2-color:#ec4e20;
+
+    --heading-font:'Playfair Display', serif;
+    --paragraph-font:'Bacasi Antique',serif;
+
+    --nav-background-color:white;
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--primary-color);
+    --nav-hover-background-color:var(--secondary-color);
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+
+header {
+    padding: 20px;
+}
+
+p {
+    padding:0px;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 30px;
+}
+.sociallinks{
+    text-decoration: none;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px;
+    background-color: #914229;
+    color:white;
+    opacity: 0.9;
+}
+.hero article {
+    position: absolute;
+    top: 80px;;
+    bottom: 25px;
+    left:25px;
+    box-sizing: border-box;
+    border: 1px;
+    width: 30%;
+    padding: 20px;
+    background-color: #914229;
+    color: white;
+    
+}
+.hero article p{
+    float:left;
+    margin-left: 10px;
+}
+.hero article img{
+    float:right;
+    margin-left: 10px;
+}
