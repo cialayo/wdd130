@@ -66,9 +66,9 @@ aside img {
     width: 200px;
     height: auto;
 }
-header, .grid, footer{
+header, footer, .grid{
     max-width: 840px;
-    margin: auto;
+    margin: 0 auto;
 }
 /*Class Selectors*/
 .box{
