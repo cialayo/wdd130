@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --primary-color:#914229;
+    --secondary-color:#f67213;
+    --accent1-color:#ff9505;
+    --accent2-color:#ec4e20;
+
+    --heading-font:'Playfair Display', serif;
+    --paragraph-font:'Bacasi Antique',serif;
+
+    --nav-background-color:white;
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-link-color:var(--primary-color);
+    --nav-hover-background-color:var(--secondary-color);
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color:var(--primary-color);
+    padding: 2rem;
+}
+
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+.logo img {
+	margin: 0 0.25rem 0 2rem;
+	width: 64px;
+	height: auto;
+}
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: #914229;
+	padding: 20px;
+    font-size: 1.2rem;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+p {
+    padding:0px;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 30px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+}
+.sociallinks{
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+}
+
+
+.employees{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    padding: 20px;
+}
+.employees h2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+}
+.employees figure{
+    width: 50%;
+}
+
+.map {
+    border: 1px solid black;
+    width: 90%; 
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #914229;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.radio-group {
+    margin: 10px 0;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.checkbox-group {
+    margin: 10px 0;
+}
+
+.checkbox-group label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.submit-button {
+    background-color: #914229; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px; 
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #662e1d;
+}
